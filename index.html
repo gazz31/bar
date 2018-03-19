@@ -1,0 +1,46 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    
+
+</head>
+
+ <script type="text/javascript">
+        $(document).ready(function()
+        {  
+            $(window).scroll(function()
+            {   
+                
+                var gora = $(window).scrollTop();   
+                var uchwyt = $.contains('#nav_top', '.small');
+                
+                if(gora > 320 && uchwyt == false) 
+                {    
+                    $('#nav_top').addClass('small');   
+                }   
+                else 
+                {    
+                    $('#nav_top').removeClass('small');   
+                }  
+                
+            });
+        });
+</script>
+
+
+
+<nav id="nav_top">  
+   
+    <div class="container">   
+        <a href="" class="brand">one_one_one_one</a>    
+        
+        <ul class="menu">
+            <li><a href="">one</a></li>    
+            <li><a href="">one</a></li>    
+            <li><a href="">one</a></li>    
+            <li><a href="">one</a></li>
+        </ul>  
+    </div>
+ 
+</nav>
+

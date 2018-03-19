@@ -1,0 +1,123 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    height:2000px;
+}
+nav 
+{
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+
+
+
+nav .container
+{
+    display:block;
+    width:100%;
+    position: relative;
+}
+nav .container .brand
+{
+    margin:0 0 0 25%;
+    
+    
+    
+}
+nav .container .brand:hover
+{
+    
+    
+    background:orange;
+    cursor:default;
+    
+}
+nav .container .brand:active
+{
+    
+    
+    
+    background:green;
+    
+}
+
+nav .container .menu
+{
+    position:relative;
+    height:100%;
+    margin:0;
+    padding:0;
+    
+}
+nav .container .menu li
+{
+    width:10%;
+    float:right;
+    list-style-type: none;
+}
+
+nav .container .menu li a:hover
+{
+    background:orange;
+    cursor:default;
+    
+}
+
+nav .container .menu li a:active
+{
+    background:green;
+    
+}
+
+#nav_top 
+{  
+    
+    background: orangered;  
+    overflow: auto;  
+    position: fixed;  
+    top: 0px;  
+    font-size: 20px;  
+    transition-timing-function: linear;  
+    transition-duration: 200ms;  
+    transition-property: all;
+    
+}
+
+#nav_top:hover
+{ 
+    
+     background:red;  
+     cursor:pointer;
+    
+}
+
+#nav_top a 
+{  
+   
+    display: block;  
+    padding: 30px 80px;  
+    text-decoration: none;  
+    transition-timing-function: cubic-bezier(.08,.61,.79,1.75);  
+    transition-duration: 300ms;  
+    transition-property: all;  
+    color: #fff;  
+    float: left;
+      
+}
+#nav_top a:hover
+{
+    color:lightgreen;
+}
+
+#nav_top.small a 
+{ 
+   
+    padding: 12px 10px;
+    
+}
